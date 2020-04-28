@@ -1,0 +1,19 @@
+{
+    "name": "Pull Request Title",
+    "version": "1.1",
+    "permissions": ["activeTab"],
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "images/pullrequest16.png"
+    },   
+    "icons": {
+        "16": "images/pullrequest16.png",
+        "32": "images/pullrequest32.png",
+        "48": "images/pullrequest48.png",
+        "128": "images/pullrequest128.png"
+    },
+    "description": "Preenche o campo do título da Pull Request automaticamente",
+    "manifest_version": 2
+}
