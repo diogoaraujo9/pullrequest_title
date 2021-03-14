@@ -1,7 +1,7 @@
 {
-    "name": "Pull Request Title",
-    "version": "1.1",
-    "permissions": ["activeTab"],
+    "name": "Pull Request Tools",
+    "version": "2.0",
+    "permissions": ["activeTab", "tabs", "webNavigation", "*://*/*"],
     "background" : {
         "scripts" : ["background.js"]
     },
@@ -14,6 +14,6 @@
         "48": "images/pullrequest48.png",
         "128": "images/pullrequest128.png"
     },
-    "description": "Preenche o campo do título da Pull Request automaticamente",
+    "description": "Ferramenta que auxilia na criação de Pull Requests e no preenchimento de seus nomes",
     "manifest_version": 2
 }
