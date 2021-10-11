@@ -59,8 +59,8 @@ else
 
 function formatTitle(_source, _target)
 {
-    var source = _source == "beta" || _source == "master" || _source == "stable" ? _source.toUpperCase() : _source;
-    var target = _target == "beta" || _target == "master" || _target == "stable" ? _target.toUpperCase() : _target; 
+    var source = _source == "beta" || _source == "master" || _source == "stable" || _source == "main" ? _source.toUpperCase() : _source;
+    var target = _target == "beta" || _target == "master" || _target == "stable" || _source == "main" ? _target.toUpperCase() : _target; 
 
     var mergeTitle = `Merge ${source} into ${target}`;
     return mergeTitle;
