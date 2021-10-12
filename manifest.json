@@ -1,6 +1,6 @@
 {
     "name": "Pull Request Tools",
-    "version": "2.1",
+    "version": "2.2",
     "permissions": ["activeTab", "webNavigation", "https://*.visualstudio.com/*"],
     "background" : {
         "scripts" : ["background.js"]
