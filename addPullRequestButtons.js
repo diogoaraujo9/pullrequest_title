@@ -83,6 +83,13 @@ function createPrButtons(originalPrButton, container) {
         masterPrButton.children[0].innerText = "Master > Beta";
         
         container.prepend(masterPrButton);
+
+        let mainPrButton = originalPrButton.cloneNode(true);
+        mainPrButton.href = mainPrButton.href + "?sourceRef=main&targetRef=beta";
+        mainPrButton.id = "__bolt-create-pr-main";
+        mainPrButton.children[0].innerText = "Main > Beta";
+        
+        container.prepend(mainPrButton);
     }
     catch(err) {
         console.error(err);
